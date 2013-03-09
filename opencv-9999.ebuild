@@ -42,9 +42,9 @@ RDEPEND="
 	opengl? ( virtual/glu )
 	png? ( media-libs/libpng )
 	qt4? (
-		x11-libs/qt-gui:4
-		x11-libs/qt-test:4
-		opengl? ( x11-libs/qt-opengl:4 )
+		dev-qt/qtgui:4
+		dev-qt/qttest:4
+		opengl? ( dev-qt/qtopengl:4 )
 	)
 	tbb? ( dev-cpp/tbb )
 	tiff? ( media-libs/tiff )
